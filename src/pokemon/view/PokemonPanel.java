@@ -1,4 +1,4 @@
-/*package pokemon.view;
+package pokemon.view;
 
 import java.awt.Color;
 import javax.swing.*;
@@ -49,4 +49,4 @@ public class PokemonPanel extends JPanel
 	}
 	
 	
-}*/
+}
