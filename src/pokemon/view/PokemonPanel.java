@@ -1,4 +1,4 @@
-package pokemon.view;
+/*package pokemon.view;
 
 import java.awt.Color;
 import javax.swing.*;
@@ -31,8 +31,22 @@ public class PokemonPanel extends JPanel
 	
 	public PokemonPanel(PokemonController baseController)
 	{
-		
+		this.baseController = baseController;
+		this.baseLayout = new SpringLayout();
+		this.pokemonIcon = new ImageIcon("images/OnixPokemon.png");
+		this.updateButton = new JButton("Update the stats!");
+		this.nameField = new JTextField(25);
+		this.combatField = new JTextField(5);
+		this.healthField = new JTextField(5);
+		this.speedField = new JTextField(5);
+		this.numberField = new JTextField(5);
+		this.advancedArea = new JTextArea(10,25);
+		this.pokedexSelector = new JComboBox(new String [] {"onyx","geodude","charizard","blastoise"});
+		this.advancedLabel = new JLabel("Advanced information");
+		this.combatLabel = new JLabel("Combat Points:");
+		this.healthLabel = new JLabel("Health Points:");
+		this.speedLabel = new JLabel("Speed Rate:");
 	}
 	
 	
-}
+}*/
